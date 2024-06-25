@@ -4,6 +4,7 @@ import pygame
 
 pygame.mixer.init()
 
+
 sound = pygame.mixer.Sound("pop-up-something-160353.wav") #sound file
 
 face_cascade = cv2.CascadeClassifier(
